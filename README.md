@@ -59,10 +59,7 @@ Human-level control through deep reinforcement learning,
 
 
 ### Installation Dependences
-Python
-
-TensorFlow
-
-Keras
-
-Gym
+- Python
+- TensorFlow
+- Keras
+- Gym
