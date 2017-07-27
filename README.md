@@ -1,7 +1,7 @@
 # CartPole
 This project will demonstrate how deep reinforcement learning can be implemented and applied to play a CartPole game using Keras and Gym.
 
- Reinforcement learning
+# Reinforcement learning
 Q-function: used to approximate the reward based on a state
 Q(s,a) :Calculates the expected future value from state "s" and action "a"
 Deep Q network (DQN) : approximate reward based on the state
@@ -13,11 +13,11 @@ Pole angle
 Pole velocity at tip
 
 
- References
+# References
 Human-level control through deep reinforcement learning,
 
 
- Installation Dependences
+# Installation Dependences
 Python
 TensorFlow
 Keras
