@@ -34,8 +34,9 @@ Q-function: used to approximate the reward based on a state
 
 Q(s,a) :Calculates the expected future value from state "s" and action "a"
 
-#### Problem in reinforcement learning = unstable / diverge when neural networks are used to represent the action-value function.
-Causes:
+ Problem in reinforcement learning = unstable / diverge when neural networks are used to represent the action-value function.
+ 
+#### Causes:
 - Correlation present in the sequence of observations
 - small updates to Q may change the data distribution
 - correlations between the action-values (Q) and the target value (r+ gamma * Q(s,a))
