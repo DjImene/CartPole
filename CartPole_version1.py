@@ -129,13 +129,16 @@ if __name__=="__main__":
         
         
         if i==(10000):
-            plt.plot(data,'r')
-            plt.xlabel('Game number')
-            plt.ylabel('Game score')
+           
+            plt.plot(data2,'g')
+            plt.xlabel('Game number +100')
+            plt.ylabel('Average game score')
             plt.title('score variation')
             plt.show()
             break
-            
-            
+
+
+
+
 
     
