@@ -1,6 +1,12 @@
 # CartPole
 This project will demonstrate how deep reinforcement learning can be implemented and applied to play a CartPole game using Keras and Gym.
 
+<p align="center">
+  <img src="https://github.com/DjImene/CartPole/blob/master/CartPole.jpg" width="350"/>
+</p>
+
+
+
 #### The state in CartPole is composed by 4 observations :
 - Cart position
 - Cart velocity
