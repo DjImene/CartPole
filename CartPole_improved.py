@@ -137,11 +137,10 @@ if __name__=="__main__":
             
             
             if done:
-                reward=t-10
+                reward=reward-10
                 print("Game number : {}/{},score: {},reward:{},best reward:{}" .format(i,nb_games,t,reward,best_reward))
                 decision_memory.append(t)
                 data.append(t)
-                #rate = rate * 0.8 
                 if reward>best_reward:
                     best_reward=reward
                 break
@@ -160,15 +159,7 @@ if __name__=="__main__":
                 print("\n Problem solved, average reward :", reward_avg)
                 #break
                 
-        #my_memory.remove((reward=-1))
-                
-        #if i==300:
-        #      for l in range(200):
-        #      my_memory.popleft()
-        #if i>400 and (i%300)==0:
-        #    for l in range(100):
-         #       my_memory.popleft()
-        
+
         
         #If we have enough data we can start the training
         if enough_data==1:
@@ -176,19 +167,4 @@ if __name__=="__main__":
         
 
 
-
-
-
-plt.plot(data2,'g')
-plt.xlabel('Game number +100')
-plt.ylabel('Average game score')
-plt.title('score variation')
-plt.show()
-
-
-plt.plot(data,'r')
-plt.xlabel('Game number')
-plt.ylabel('Game score')
-plt.title('score variation')
-plt.show()
 
