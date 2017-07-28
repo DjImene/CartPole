@@ -68,6 +68,7 @@ The document "CartPole_version1.py" is the first version of the code for the res
 According to this figure, the average score fluctuates a lot in function of the number of games played by the agent (the figure starts frome the 100 th game).
 
 In order to improve these results, we made some changes which led us to the document "CartPole_improved.py". The new results are shown in the following figure.
+
 <p align="center">
   <https://github.com/DjImene/CartPole/blob/master/new_variation.png" width="350"/>
 </p>
