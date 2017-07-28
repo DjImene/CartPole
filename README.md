@@ -96,3 +96,7 @@ Human-level control through deep reinforcement learning, Nature, Volodymyr Mnih,
 - TensorFlow
 - Keras
 - Gym
+
+### To do
+- Improve the results
+- Understand why we get very bad results sometimes with the same code and we need to lunch it several times to get those results.
