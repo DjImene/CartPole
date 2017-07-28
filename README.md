@@ -63,13 +63,6 @@ The document "CartPole_version1.py" is the first version of the code for the res
 
 <p align="center">
 
-  <img src="https://github.com/DjImene/CartPole/blob/master/index.png" width="500"/>
-</p>
-
-Since the score per game in function of the game number is not giving a lot of information, we are going to draw the average score per 100 games.
-
-<p align="center">
-
   <img src="https://github.com/DjImene/CartPole/blob/master/variation.png" width="500"/>
 </p>
  
