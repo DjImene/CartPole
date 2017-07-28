@@ -58,10 +58,24 @@ Q(s,a) :Calculates the expected future value from state "s" and action "a"
 - Calculate average score-per-episode + average predicted 
 
 
+### Content of the project 
+The document "CartPole_version1.py" is the first version of the code for the resolution of the game CartPole, the results of this version is shown in the following figure. 
 
+<p align="center">
+  <https://github.com/DjImene/CartPole/blob/master/variation.png" width="350"/>
+</p>
+ 
+According to this figure, the average score fluctuates a lot in function of the number of games played by the agent (the figure starts frome the 100 th game).
+
+In order to improve these results, we made some changes which led us to the document "CartPole_improved.py". The new results are shown in the following figure.
+<p align="center">
+  <https://github.com/DjImene/CartPole/blob/master/new_variation.png" width="350"/>
+</p>
+
+We notice that even if the fluctuations are still present, we have an improvement since the average game score doesn't go under 150 after approximatly 4000 game.
 
 ### References
-Human-level control through deep reinforcement learning,
+Human-level control through deep reinforcement learning, Nature, Volodymyr Mnih,	Koray Kavukcuoglu,	David Silver,	Andrei A. Rusu,	Joel Veness,	Marc G. Bellemare,	Alex Graves,	Martin Riedmiller,	Andreas K. Fidjeland,	Georg Ostrovski,	Stig Petersen,	Charles Beattie,	Amir Sadik,	Ioannis Antonoglou,	Helen King,	Dharshan Kumaran, Daan Wierstra,	Shane Legg	& Demis Hassabis.
 
 
 ### Dependencies
